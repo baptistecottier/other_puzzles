@@ -1,6 +1,7 @@
 """Codyssi - Year 2024 - Day 03 - Unformatted Readings!"""
 
-def preprocessing(puzzle_input):
+
+def preprocessing(puzzle_input: str) -> list[tuple[int, int]]:
     """
     Process the puzzle input by parsing each line into a reading with string 
     number and integer base.
@@ -11,7 +12,8 @@ def preprocessing(puzzle_input):
         readings.append([n, int(base)])
     return readings
 
-def solver(readings):
+
+def solver(readings: list[tuple[int, int]]):
     """
     Solves a problem involving number readings with different bases.
 

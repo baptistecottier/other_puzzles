@@ -3,7 +3,7 @@
 from collections import defaultdict, deque
 
 
-def preprocessing(puzzle_input):
+def preprocessing(puzzle_input: str) -> dict[str, set]:
     """
     Creates a bidirectional graph from the input, where each node is 
     connected to the nodes specified in the puzzle input.
@@ -16,7 +16,7 @@ def preprocessing(puzzle_input):
     return routes
 
 
-def solver(routes):
+def solver(routes: dict[str, set]):
     """
     Analyzes routes by counting destinations, paths with ≤3 steps, and summing
     all shortest paths.
@@ -32,7 +32,7 @@ def solver(routes):
     yield sum(distances)
 
 
-def shortest_path(routes, dst):
+def shortest_path(routes: dict[str, set], dst: str) -> int:
     """
     Find the shortest path from 'STT' to the destination using BFS.
     

@@ -1,7 +1,7 @@
 """Codyssi - Year 2024 - Day 02 - Sensors and circuits"""
 
 
-def preprocessing(puzzle_input):
+def preprocessing(puzzle_input: str) -> list[bool]:
     """
     Preprocess the puzzle input by converting each sensor reading to a binary value.
 
@@ -15,33 +15,23 @@ def preprocessing(puzzle_input):
     """
     sensors = []
     for sensor in puzzle_input.splitlines():
-        if sensor == "TRUE":
-            sensors.append(1)
-        else:
-            sensors.append(0)
+        sensors.append(sensor == "TRUE")
     return sensors
 
 
-def solver(sensors):
+def solver(sensors: list[bool]):
     """
-    Process a list of sensors through logical operations and aggregation.
-
-    This function processes a list of sensor values (0s and 1s) in three phases:
-    1. Returns the sum of indices (1-based) of sensors that have a value of 1
-    2. Iteratively processes sensors in groups of 4, applying AND operation to first pair
-        and OR operation to second pair, then returns the sum of active sensors after first 
-        iteration
-    3. Returns the sum of all sensor counts from all iterations
-
+    Process sensors list through logical operations and yield statistical results.
+    
     Args:
-         sensors: List of integers (0s and 1s) representing sensor values
-
+        sensors: List of boolean values representing sensor states (1/True or 0/False)
+    
     Yields:
-         int: Sum of 1-based indices where sensor value is 1
-         int: Sum of active sensors after first iteration
-         int: Total sum of active sensors across all iterations
+        int: Sum of indices of active sensors (1-indexed)
+        int: Sum of active sensors after first transformation
+        int: Sum of all active sensors across all transformations
     """
-    yield sum(n for n, s in enumerate(sensors, 1) if s == 1)
+    yield sum(n for n, s in enumerate(sensors, 1) if s is True)
     cnts = [sum(sensors)]
     new_sensors = []
     while len(sensors) != 1:

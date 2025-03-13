@@ -1,7 +1,7 @@
 """Codyssi - Year 2024 - Day 01 - Handling the Budget"""
 
 
-def preprocessing(puzzle_input):
+def preprocessing(puzzle_input: str) -> list[int]:
     """
     Converts the puzzle input string into a list of integers representing costs.
     """
@@ -9,7 +9,7 @@ def preprocessing(puzzle_input):
     return costs
 
 
-def solver(costs):
+def solver(costs: list[int]):
     """
     Solve the budget handling puzzle.
     
