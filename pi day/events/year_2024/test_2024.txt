@@ -1,0 +1,8 @@
+Day          Price ($)          Ticker
+1            0.3                GST
+2            3.75               JVW
+3            2.64               SPI
+4            7.77               LCK
+5            1.6                HST
+6            1.8                NUM
+7            5.88               XIJ
