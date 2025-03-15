@@ -12,7 +12,7 @@ This repository contains my solutions for the [Internationalization Puzzles](htt
 | 6 | [Mojibake puzzle dictionnary         ](https://i18n-puzzles.com/puzzle/6/)    | [🧩](https://github.com/baptistecottier/other_puzzles/blob/main/i18n/puzzles/puzzle_06/solver_06.py) | [📗](https://github.com/baptistecottier/other_puzzles/blob/main/i18n/puzzles/puzzle_06/user_input_06.txt) |
 | 7 | [The audit trail fixer               ](https://i18n-puzzles.com/puzzle/7/)    | [🕰️](https://github.com/baptistecottier/other_puzzles/blob/main/i18n/puzzles/puzzle_07/solver_07.py) | [📗](https://github.com/baptistecottier/other_puzzles/blob/main/i18n/puzzles/puzzle_07/user_input_07.txt) |
 | 8 | [Unicode passwords redux             ](https://i18n-puzzles.com/puzzle/8/)    | [🔐](https://github.com/baptistecottier/other_puzzles/blob/main/i18n/puzzles/puzzle_08/solver_08.py) | [📗](https://github.com/baptistecottier/other_puzzles/blob/main/i18n/puzzles/puzzle_08/user_input_08.txt) |
-| 9 | [Nine Eleven                         ](https://i18n-puzzles.com/puzzle/9/)    | [🔐](https://github.com/baptistecottier/other_puzzles/blob/main/i18n/puzzles/puzzle_09/solver_09.py) | [📗](https://github.com/baptistecottier/other_puzzles/blob/main/i18n/puzzles/puzzle_09/user_input_09.txt) |
+| 9 | [Nine Eleven                         ](https://i18n-puzzles.com/puzzle/9/)    | [✍🏻](https://github.com/baptistecottier/other_puzzles/blob/main/i18n/puzzles/puzzle_09/solver_09.py) | [📗](https://github.com/baptistecottier/other_puzzles/blob/main/i18n/puzzles/puzzle_09/user_input_09.txt) |
 | 10
 | 11
 | 12
