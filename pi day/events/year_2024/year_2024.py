@@ -2,14 +2,14 @@
 Solver for 2024 - Pi Day Coding Quest
 """
 
-def preprocessing(puzzle_input):
+def preprocessing(puzzle_input: str) -> str:
     """
     Preprocess the puzzle input by converting it to lowercase.
     """
     return puzzle_input.lower()
 
 
-def solver(message):
+def solver(message: str):
     """
     Solves a puzzle by processing a message using Pi digits.
     
