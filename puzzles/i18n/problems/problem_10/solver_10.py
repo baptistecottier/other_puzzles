@@ -1,4 +1,4 @@
-"""Internationalization Puzzles - Day 09 - Nine Eleven"""
+"""Internationalization Puzzles - Day 10 - Unicode passwords strike back!"""
 
 from unicodedata import normalize
 from itertools import product
