@@ -13,7 +13,7 @@ This repository contains my solutions for the [Internationalization Puzzles](htt
 | 7 | [The audit trail fixer               ](https://i18n-puzzles.com/puzzle/7/)    | [🕰️](https://github.com/baptistecottier/other_puzzles/blob/main/puzzles/i18n/problems/problem_07/solver_07.py) | [📗](https://github.com/baptistecottier/other_puzzles/blob/main/puzzles/i18n/problems/problem_07/user_input_07.txt) |
 | 8 | [Unicode passwords redux             ](https://i18n-puzzles.com/puzzle/8/)    | [🔐](https://github.com/baptistecottier/other_puzzles/blob/main/puzzles/i18n/problems/problem_08/solver_08.py) | [📗](https://github.com/baptistecottier/other_puzzles/blob/main/puzzles/i18n/problems/problem_08/user_input_08.txt) |
 | 9 | [Nine Eleven                         ](https://i18n-puzzles.com/puzzle/9/)    | [✍🏻](https://github.com/baptistecottier/other_puzzles/blob/main/puzzles/i18n/problems/problem_09/solver_09.py) | [📗](https://github.com/baptistecottier/other_puzzles/blob/main/puzzles/i18n/problems/problem_09/user_input_09.txt) |
-| 10
+| 10| [Unicode passwords strike back!      ](https://i18n-puzzles.com/puzzle/10/)   | [👨🏻‍💻](https://github.com/baptistecottier/other_puzzles/blob/main/puzzles/i18n/problems/problem_10/solver_10.py) | [📗](https://github.com/baptistecottier/other_puzzles/blob/main/puzzles/i18n/problems/problem_10/user_input_10.txt) |
 | 11
 | 12
 | 13
