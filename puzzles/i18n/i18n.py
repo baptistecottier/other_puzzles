@@ -7,7 +7,7 @@ import builtins
 if __name__ == '__main__':
     day = sys.argv[1].zfill(2)
     project_path = os.path.abspath(os.getcwd())
-    INPUT_PATH = f"{project_path}/puzzles/puzzle_{day}/"
+    INPUT_PATH = f"{project_path}/problems/problem_{day}/"
     sys.path.append(INPUT_PATH)
     module = __import__(f"solver_{day}")
 
@@ -19,8 +19,8 @@ if __name__ == '__main__':
         user_input = file.read()
 
     if 'preprocessing' in dir(module):
-        user_input = module.preprocessing(user_input)
         test_input = module.preprocessing(test_input)
+        user_input = module.preprocessing(user_input)
 
     def solver(data):
         """
