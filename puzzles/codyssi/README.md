@@ -8,6 +8,7 @@ This repository contains my solutions for the [Codyssi](https://www.codyssi.com/
 | 1 | [Compass Calibration  ](https://www.codyssi.com/view_problem_5?)    | [🧭](https://github.com/baptistecottier/other_puzzles/blob/main/puzzles/codyssi/events/year_2025/day_01/solver_01.py) | 
 | 2 |
 | 3 |
+| 4 |
 
 
 ### 2024 - Summer at the Lab
