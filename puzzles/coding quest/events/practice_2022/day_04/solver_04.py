@@ -9,7 +9,7 @@ def preprocessing(puzzle_input: str) -> list[list[int]]:
     return received_bytes
 
 
-def solver(received_bytes: list[list[int]]) -> int:
+def solver(received_bytes: list[list[int]]):
     """
     Verifies the integrity of a 2D list of bytes using row and column checksums.
 
