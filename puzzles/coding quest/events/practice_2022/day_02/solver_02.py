@@ -48,6 +48,7 @@ def solver(words: list[str], absent: set[str], correct_pos: dict, wrong_pos: dic
     Returns:
         str: First word matching all constraints
     """
+    word = None
     for word in words:
         if any(c in absent for c in word):
             continue
@@ -55,4 +56,5 @@ def solver(words: list[str], absent: set[str], correct_pos: dict, wrong_pos: dic
             continue
         if any(l not in word or word[i] == l for l, i in wrong_pos.items()):
             continue
-        return word
+        break
+    yield word

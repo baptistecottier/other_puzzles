@@ -35,16 +35,9 @@ def preprocessing(puzzle_input: str) -> tuple[list[int], list[int]]:
 
 def solver(board: list[int], rolls: list[int]):
     """
-    Simulates a board game with two players taking turns rolling dice.
-    
-    Args:
-        board: List representing the game board where non-zero values indicate special moves
-        rolls: List of tuples (move_one, move_two) representing dice rolls for each player
-    
-    Returns:
-        The number of turns taken to reach the target position (end of board)
-        """
-    target = len(board) - 1
+    Plays a game on a board, alternating between two players, until one exits the board, returning
+    a score based on the winner and game duration.
+    """
     positions = [0, 0]
     player = 0
     turn = 0.5
@@ -52,12 +45,23 @@ def solver(board: list[int], rolls: list[int]):
     while True:
         move = rolls.pop(0)
         turn += 0.5
-        positions[player] += move
-        if positions[player] >= target:
-            return (1 + player) * int(turn)
-        while board[positions[player]] != 0:
-            positions[player] += board[positions[player]]
-            if positions[player] >= target:
-                return (1 + player) * int(turn)
-
+        positions[player] = play(board, positions[player], move)
+        if positions[player] == -1:
+            break
         player = 1 - player
+    yield (1 + player) * int(turn)
+
+
+def play(board: list[int], pos: int, move: int) -> int:
+    """
+    Simulate a player's move on a board, adjusting position based on board values until landing
+    on a zero space or exiting the board.
+    """
+    pos += move
+    if pos >= len(board) - 1:
+        return -1
+    while board[pos] != 0:
+        pos += board[pos]
+        if pos >= len(board) - 1:
+            return -1
+    return pos

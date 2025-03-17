@@ -38,7 +38,7 @@ def solver(grid):
         if grid[y][x] != 0:
             n_comets += 1
             density += compute_asteroid_density(x, y, grid, seen)
-    return density // n_comets
+    yield density // n_comets
 
 
 def compute_asteroid_density(x, y, grid, seen):

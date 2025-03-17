@@ -30,5 +30,6 @@ def solver(received_bytes: list[list[int]]) -> int:
                 cs_verif = col_sum - col_cs
                 cs_verif %= 256
                 if cs_verif != 0:
-                    return (received_bytes[y][x] - cs_verif) * received_bytes[y][x]
-    return 0
+                    yield (received_bytes[y][x] - cs_verif) * received_bytes[y][x]
+                    return
+    yield 0
