@@ -1,11 +1,14 @@
-"""Global solver for Codyssi puzzles"""
+"""Global solver for codyssi puzzles"""
 
 import sys
 import os
+from inspect import signature
+
 
 if __name__ == '__main__':
     year = sys.argv[1]
     day = sys.argv[2].zfill(2)
+
     project_path = os.path.abspath(os.getcwd())
     INPUT_PATH = f"{project_path}/events/year_{year}/day_{day}/"
     sys.path.append(INPUT_PATH)
@@ -13,24 +16,36 @@ if __name__ == '__main__':
 
     with open(f"{INPUT_PATH}/test_input_{day}.txt", encoding = "utf-8") as file:
         test_input = file.read()
-        test_input, expected_test_answers = test_input.split('\n\n', 1)
-        expected_test_answers = expected_test_answers.splitlines()
+        test_input, expected_test_answer = test_input.rsplit('\n\n', 1)
+        expected_test_answers = expected_test_answer.splitlines()
 
     with open(f"{INPUT_PATH}/user_input_{day}.txt", encoding = "utf-8") as file:
         user_input = file.read()
 
     if 'preprocessing' in dir(module):
-        user_input = module.preprocessing(user_input)
-        test_input = module.preprocessing(test_input)
+        pp = module.preprocessing
+    else:
+        def pp(x):
+            """Identity function"""
+            return x
 
-    computed_test_answers = module.solver(test_input)
-    computed_user_answers = module.solver(user_input)
-    for expected_test_answer in expected_test_answers:
-        computed_test_answer = next(computed_test_answers)
-        if  str(computed_test_answer) == expected_test_answer:
+    def solver(data):
+        """
+        Call module's solver with data, unpacking if data is a tuple.
+        """
+        n_args = len(signature(module.solver).parameters)
+        if n_args > 1:
+            return module.solver(*data)
+        return module.solver(data)
+
+    COMPUTED_TEST_ANSWERS = solver(pp(test_input))
+    COMPUTED_USER_ANSWERS = solver(pp(user_input))
+    for EA in expected_test_answers:
+        COMPUTED_TEST_ANSWER = next(COMPUTED_TEST_ANSWERS)
+        if  str(COMPUTED_TEST_ANSWER) == EA:
             print("Test passed ✅")
-            print("User answer:", next(computed_user_answers))
+            print("User answer:", next(COMPUTED_USER_ANSWERS))
         else:
             print("Test failed ❌. "
-                f"Your answer: {computed_test_answer}. "
-                f"Expected answer: {expected_test_answer}")
+                f"Your answer: {COMPUTED_TEST_ANSWER}. "
+                f"Expected answer: {EA}")
