@@ -39,7 +39,7 @@ def solver(sentences: list[str]):
     return sum_shifts
 
 
-def homer_unshift(sentence):
+def homer_unshift(sentence: str) -> str:
     """
     Performs a Caesar shift decryption (right shift by 1) on Greek letters in a sentence.
 
