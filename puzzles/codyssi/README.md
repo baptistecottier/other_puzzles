@@ -2,26 +2,15 @@
 
 This repository contains my solutions for the [Codyssi](https://www.codyssi.com/home_page) puzzles.
 
-
-<details>
-    <summary> 
-    <h3> 2025 - Journey to Atlantis <h3>
-    </summary>
-
+### 2025 - Journey to Atlantis
 | # | Title                                                               | Solution                                                                                        |
 |--:|:--------------------------------------------------------------------|:----------------------------------------------------------------------------------------------: |
 | 1 | [Compass Calibration  ](https://www.codyssi.com/view_problem_5?)    | [🧭](https://github.com/baptistecottier/other_puzzles/blob/main/puzzles/codyssi/events/year_2025/day_01/solver_01.py) | 
 | 2 |
 | 3 |
-| 4 |
 
-</details>
 
-<details>
-    <summary>
-    <h3>2024 - Summer at the Lab <h3>
-    </summary>
-
+### 2024 - Summer at the Lab
 | # | Title                                                                   | Solution                                                                                                              |
 |--:|:------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------:                       |
 | 1 | [Handling the budget      ](https://www.codyssi.com/view_problem_1?)    | [💰](https://github.com/baptistecottier/other_puzzles/blob/main/puzzles/codyssi/events/year_2024/day_01/solver_01.py) |
