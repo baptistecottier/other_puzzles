@@ -5,9 +5,9 @@ This repository contains my solutions for the [Codyssi](https://www.codyssi.com/
 <table>
 <tr VALIGN = TOP>
 <td>
-<center><h4>2025
+<div style="text-align:center"><h4>2025
 
-Journey to Atlantis</h4></center>
+Journey to Atlantis</h4></div>
 | # | Title                                                               | Solution                                                                                        |
 |--:|:--------------------------------------------------------------------|:----------------------------------------------------------------------------------------------: |
 | 1 | [Compass Calibration  ](https://www.codyssi.com/view_problem_5?)    | [🧭](https://github.com/baptistecottier/other_puzzles/blob/main/puzzles/codyssi/events/year_2025/day_01/solver_01.py) | 
@@ -18,9 +18,9 @@ Journey to Atlantis</h4></center>
 </td>
 
 <td>
-<center><h4>2024
+<div style="text-align:center"><h4>2024
 
-Summer at the Lab</h4></center>
+Summer at the Lab</h4></div>
 
 | # | Title                                                                   | Solution                                                                                                              |
 |--:|:------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------:                       |
