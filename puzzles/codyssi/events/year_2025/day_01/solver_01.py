@@ -1,4 +1,4 @@
-"""Codyssi - Year 2024 - Day 01 - Handling the Budget"""
+"""Codyssi - Year 2025 - Day 01 - Compass Calibration"""
 
 
 def preprocessing(puzzle_input: str) -> tuple[list[int], list[str]]:
