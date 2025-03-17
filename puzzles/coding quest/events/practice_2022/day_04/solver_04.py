@@ -9,7 +9,7 @@ def preprocessing(puzzle_input: str) -> list[list[int]]:
     return received_bytes
 
 
-def solver(received_bytes: list[list[int]]) -> int | None:
+def solver(received_bytes: list[list[int]]) -> int:
     """
     Verifies the integrity of a 2D list of bytes using row and column checksums.
 
@@ -20,9 +20,8 @@ def solver(received_bytes: list[list[int]]) -> int | None:
             contains the column checksums.
 
     Returns:
-        int or None: 
-            The product of the incorrect byte and the difference needed to correct it, or
-            None if all checksums are correct.
+        int: 
+            The product of the incorrect byte and the difference needed to correct it.
     """
     for y, row in enumerate(received_bytes[:-1]):
         if sum(row[:-1]) % 256 != row[-1]:
@@ -32,4 +31,4 @@ def solver(received_bytes: list[list[int]]) -> int | None:
                 cs_verif %= 256
                 if cs_verif != 0:
                     return (received_bytes[y][x] - cs_verif) * received_bytes[y][x]
-    return None
+    return 0
