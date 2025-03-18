@@ -6,7 +6,7 @@ This repository contains my solutions for the [Codyssi](https://www.codyssi.com/
 | # | Title                                                               | Solution                                                                                        |
 |--:|:--------------------------------------------------------------------|:----------------------------------------------------------------------------------------------: |
 | 1 | [Compass Calibration  ](https://www.codyssi.com/view_problem_5?)    | [🧭](https://github.com/baptistecottier/other_puzzles/blob/main/puzzles/codyssi/events/year_2025/day_01/solver_01.py) | 
-| 2 |
+| 2 | [Absurd Arithmetic    ](https://www.codyssi.com/view_problem_6?)    | [🧮](https://github.com/baptistecottier/other_puzzles/blob/main/puzzles/codyssi/events/year_2025/day_02/solver_02.py) | 
 | 3 |
 | 4 |
 
