@@ -15,7 +15,7 @@ This repository contains my solutions for the [Internationalization Puzzles](htt
 | 9  | [Nine Eleven                         ](https://i18n-puzzles.com/puzzle/9/)    | [✍🏻](https://github.com/baptistecottier/other_puzzles/blob/main/puzzles/i18n/problems/problem_09/solver_09.py) | [📗](https://github.com/baptistecottier/other_puzzles/blob/main/puzzles/i18n/problems/problem_09/user_input_09.txt) |
 | 10 | [Unicode passwords strike back!      ](https://i18n-puzzles.com/puzzle/10/)   | [👨🏻‍💻](https://github.com/baptistecottier/other_puzzles/blob/main/puzzles/i18n/problems/problem_10/solver_10.py) | [📗](https://github.com/baptistecottier/other_puzzles/blob/main/puzzles/i18n/problems/problem_10/user_input_10.txt) |
 | 11 | [Homer's cipher                      ](https://i18n-puzzles.com/puzzle/11/)   | [📜](https://github.com/baptistecottier/other_puzzles/blob/main/puzzles/i18n/problems/problem_11/solver_11.py) | [📗](https://github.com/baptistecottier/other_puzzles/blob/main/puzzles/i18n/problems/problem_11/user_input_11.txt) |
-| 12 |
+| 12 | [Sorting it out                      ](https://i18n-puzzles.com/puzzle/11/)   | [📞](https://github.com/baptistecottier/other_puzzles/blob/main/puzzles/i18n/problems/problem_12/solver_12.py) | [📗](https://github.com/baptistecottier/other_puzzles/blob/main/puzzles/i18n/problems/problem_12/user_input_12.txt) |
 | 13 |
 | 14 |
 | 15 |
