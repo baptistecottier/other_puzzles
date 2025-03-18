@@ -40,12 +40,13 @@ if __name__ == '__main__':
 
     COMPUTED_TEST_ANSWERS = solver(pp(test_input))
     COMPUTED_USER_ANSWERS = solver(pp(user_input))
-    for EA in expected_test_answers:
-        COMPUTED_TEST_ANSWER = next(COMPUTED_TEST_ANSWERS)
-        if  str(COMPUTED_TEST_ANSWER) == EA:
+    for EA, CA, CU in zip(expected_test_answers,
+                          COMPUTED_TEST_ANSWERS,
+                          COMPUTED_USER_ANSWERS):
+        if  str(CA) == EA:
             print("Test passed ✅")
-            print("User answer:", next(COMPUTED_USER_ANSWERS))
+            print("User answer:", CU)
         else:
             print("Test failed ❌. "
-                f"Your answer: {COMPUTED_TEST_ANSWER}. "
+                f"Your answer: {CA}. "
                 f"Expected answer: {EA}")
