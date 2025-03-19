@@ -7,7 +7,7 @@ This repository contains my solutions for the [Codyssi](https://www.codyssi.com/
 |--:|:----------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------: |
 | 1 | [Compass Calibration          ](https://www.codyssi.com/view_problem_5?)    | [🧭](https://github.com/baptistecottier/other_puzzles/blob/main/puzzles/codyssi/events/year_2025/day_01/solver_01.py) | 
 | 2 | [Absurd Arithmetic            ](https://www.codyssi.com/view_problem_6?)    | [🧮](https://github.com/baptistecottier/other_puzzles/blob/main/puzzles/codyssi/events/year_2025/day_02/solver_02.py) | 
-| 3 | [Supplies in Surplus          ](https://www.codyssi.com/view_problem_7?)    | [🧮](https://github.com/baptistecottier/other_puzzles/blob/main/puzzles/codyssi/events/year_2025/day_02/solver_02.py) | 
+| 3 | [Supplies in Surplus          ](https://www.codyssi.com/view_problem_7?)    | [📦](https://github.com/baptistecottier/other_puzzles/blob/main/puzzles/codyssi/events/year_2025/day_02/solver_02.py) | 
 | 4 | [Aeolian Transmissions        ](https://www.codyssi.com/view_problem_8?)
 | 5 | [Patron Islands               ](https://www.codyssi.com/view_problem_9?)
 | 6 | [Lotus Scramble               ](https://www.codyssi.com/view_problem_10?)
