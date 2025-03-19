@@ -31,7 +31,7 @@ def preprocessing(puzzle_input):
             word = word.encode('latin1').decode('utf8')
         if n % 5 == 0:
             word = word.encode('latin1').decode('utf8')
-        words.append(word)
+        words.append((n, word))
 
     keys = set()
     for word in raw_crossword.splitlines():
@@ -57,9 +57,9 @@ def solver(words, keys):
     """
     result = 0
     for c, i, l in keys:
-        for n, word in enumerate(words):
+        for n, word in words:
             if len(word) != l:
                 continue
             if word[i] == c:
-                result += n + 1
+                result += n
     return result
