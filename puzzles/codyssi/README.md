@@ -3,12 +3,21 @@
 This repository contains my solutions for the [Codyssi](https://www.codyssi.com/home_page) puzzles.
 
 ### 2025 - Journey to Atlantis
-| # | Title                                                               | Solution                                                                                        |
-|--:|:--------------------------------------------------------------------|:----------------------------------------------------------------------------------------------: |
-| 1 | [Compass Calibration  ](https://www.codyssi.com/view_problem_5?)    | [🧭](https://github.com/baptistecottier/other_puzzles/blob/main/puzzles/codyssi/events/year_2025/day_01/solver_01.py) | 
-| 2 | [Absurd Arithmetic    ](https://www.codyssi.com/view_problem_6?)    | [🧮](https://github.com/baptistecottier/other_puzzles/blob/main/puzzles/codyssi/events/year_2025/day_02/solver_02.py) | 
-| 3 |
-| 4 |
+| # | Title                                                                       a | Solution                                                                                        |
+|--:|:----------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------: |
+| 1 | [Compass Calibration          ](https://www.codyssi.com/view_problem_5?)    | [🧭](https://github.com/baptistecottier/other_puzzles/blob/main/puzzles/codyssi/events/year_2025/day_01/solver_01.py) | 
+| 2 | [Absurd Arithmetic            ](https://www.codyssi.com/view_problem_6?)    | [🧮](https://github.com/baptistecottier/other_puzzles/blob/main/puzzles/codyssi/events/year_2025/day_02/solver_02.py) | 
+| 3 | [Supplies in Surplus          ](https://www.codyssi.com/view_problem_7?)    | [🧮](https://github.com/baptistecottier/other_puzzles/blob/main/puzzles/codyssi/events/year_2025/day_02/solver_02.py) | 
+| 4 | [Aeolian Transmissions        ](https://www.codyssi.com/view_problem_8?)
+| 5 | [Patron Islands               ](https://www.codyssi.com/view_problem_9?)
+| 6 | [Lotus Scramble               ](https://www.codyssi.com/view_problem_10?)
+| 7 | [Siren Disruption             ](https://www.codyssi.com/view_problem_11?)
+| 8 | [Risky Shortcut               ](https://www.codyssi.com/view_problem_12?)
+| 9 | [Windy Bargain                ](https://www.codyssi.com/view_problem_13?)
+| 10 | [Cyclops Chaos               ](https://www.codyssi.com/view_problem_14?)
+| 11 | [Games in a Storm            ](https://www.codyssi.com/view_problem_15?)
+| 12 | [Challenging the Whirlpool   ](https://www.codyssi.com/view_problem_16?)
+| 13 | [Laestrygonian Guards        ](https://www.codyssi.com/view_problem_17?)
 
 
 ### 2024 - Summer at the Lab
