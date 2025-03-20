@@ -12,7 +12,8 @@ def preprocessing(puzzle_input: str) -> list[tuple[int, ...]]:
         width, height = land.split(' × ')
         w_value, w_unit = kanji2number(width[:-1]), width[-1]
         h_value, h_unit = kanji2number(height[:-1]), height[-1]
-        dimensions.append(w_value, w_unit, h_value, h_unit)
+        dimensions.append((w_value, w_unit, h_value, h_unit))
+    return dimensions
 
 
 def solver(dimensions: list[tuple[int, ...]]):
@@ -20,7 +21,7 @@ def solver(dimensions: list[tuple[int, ...]]):
     Calculates the total area by summing the area of each dimension in the input list.
     """
     area_size = sum(get_area(*area) for area in dimensions)
-    return area_size
+    return int(area_size * 100 / 1089)
 
 
 def get_area(w_value, w_unit, h_value, h_unit):
