@@ -29,7 +29,7 @@ def solver(ranges: list[set]):
     ranges = [ranges[i].union(ranges[i + 1]) for i in range(0, len(ranges), 2)]
     n_boxes = sum(len(r) for r in ranges)
     yield n_boxes
-    
+
     ranges = [ranges[i].union(ranges[i + 1]) for i in range(len(ranges) - 1)]
     n_boxes = max(len(r) for r in ranges)
     yield n_boxes

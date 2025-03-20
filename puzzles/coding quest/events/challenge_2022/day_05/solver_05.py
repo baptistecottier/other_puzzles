@@ -4,7 +4,10 @@ from hashlib import sha256
 
 
 def preprocessing(puzzle_input: str) -> list[list[str, int, str]]:
-    """Process raw input by splitting records into description, mined number, and hash components."""
+    """
+    Process raw input by splitting records into description, mined number, 
+    and hash components.
+    """
     records = []
     for record in puzzle_input.splitlines():
         desc, mined_n, _, record_hash = record.split('|')
