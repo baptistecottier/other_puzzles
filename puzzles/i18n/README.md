@@ -17,7 +17,7 @@ This repository contains my solutions for the [Internationalization Puzzles](htt
 | 11 | [Homer's cipher                      ](https://i18n-puzzles.com/puzzle/11/)   | [📜](https://github.com/baptistecottier/other_puzzles/blob/main/puzzles/i18n/problems/problem_11/solver_11.py) | [📗](https://github.com/baptistecottier/other_puzzles/blob/main/puzzles/i18n/problems/problem_11/user_input_11.txt) |
 | 12 | [Sorting it out                      ](https://i18n-puzzles.com/puzzle/12/)   | [📞](https://github.com/baptistecottier/other_puzzles/blob/main/puzzles/i18n/problems/problem_12/solver_12.py) | [📗](https://github.com/baptistecottier/other_puzzles/blob/main/puzzles/i18n/problems/problem_12/user_input_12.txt) |
 | 13 | [Gulliver puzzle dictionnary         ](https://i18n-puzzles.com/puzzle/13/)   | [🧩](https://github.com/baptistecottier/other_puzzles/blob/main/puzzles/i18n/problems/problem_13/solver_13.py) | [📗](https://github.com/baptistecottier/other_puzzles/blob/main/puzzles/i18n/problems/problem_13/user_input_13.txt) |
-| 14 |
+| 14 | [Metrification in Japan              ](https://i18n-puzzles.com/puzzle/14/)   | [📏](https://github.com/baptistecottier/other_puzzles/blob/main/puzzles/i18n/problems/problem_14/solver_14.py) | [📗](https://github.com/baptistecottier/other_puzzles/blob/main/puzzles/i18n/problems/problem_14/user_input_14.txt) |
 | 15 |
 | 16 |
 | 17 |
