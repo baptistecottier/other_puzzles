@@ -10,7 +10,7 @@ This repository contains my solutions for the [Codyssi](https://www.codyssi.com/
 | 3 | [Supplies in Surplus          ](https://www.codyssi.com/view_problem_7?)    | [📦](https://github.com/baptistecottier/other_puzzles/blob/main/puzzles/codyssi/events/year_2025/day_03/solver_03.py) | 
 | 4 | [Aeolian Transmissions        ](https://www.codyssi.com/view_problem_8?)    | [📡](https://github.com/baptistecottier/other_puzzles/blob/main/puzzles/codyssi/events/year_2025/day_04/solver_04.py) | 
 | 5 | [Patron Islands               ](https://www.codyssi.com/view_problem_9?)    | [🏝️](https://github.com/baptistecottier/other_puzzles/blob/main/puzzles/codyssi/events/year_2025/day_05/solver_05.py) | 
-| 6 | [Lotus Scramble               ](https://www.codyssi.com/view_problem_10?)
+| 6 | [Lotus Scramble               ](https://www.codyssi.com/view_problem_10?)   | [🪷](https://github.com/baptistecottier/other_puzzles/blob/main/puzzles/codyssi/events/year_2025/day_06/solver_06.py) | 
 | 7 | [Siren Disruption             ](https://www.codyssi.com/view_problem_11?)
 | 8 | [Risky Shortcut               ](https://www.codyssi.com/view_problem_12?)
 | 9 | [Windy Bargain                ](https://www.codyssi.com/view_problem_13?)
