@@ -14,7 +14,7 @@ def solver(log_sheet):
     uncorrupted entries, sum of uncorrupted values, and total sum of all values after applying 
     uncorrupting process.
     """
-    values = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    values = "_abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
     list_uncorrupted = []
     list_corrupted = []
