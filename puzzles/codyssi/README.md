@@ -11,8 +11,8 @@ This repository contains my solutions for the [Codyssi](https://www.codyssi.com/
 | 4 | [Aeolian Transmissions        ](https://www.codyssi.com/view_problem_8?)    | [📡](https://github.com/baptistecottier/other_puzzles/blob/main/puzzles/codyssi/events/year_2025/day_04/solver_04.py) | 
 | 5 | [Patron Islands               ](https://www.codyssi.com/view_problem_9?)    | [🏝️](https://github.com/baptistecottier/other_puzzles/blob/main/puzzles/codyssi/events/year_2025/day_05/solver_05.py) | 
 | 6 | [Lotus Scramble               ](https://www.codyssi.com/view_problem_10?)   | [🪷](https://github.com/baptistecottier/other_puzzles/blob/main/puzzles/codyssi/events/year_2025/day_06/solver_06.py) | 
-| 7 | [Siren Disruption             ](https://www.codyssi.com/view_problem_11?)
-| 8 | [Risky Shortcut               ](https://www.codyssi.com/view_problem_12?)
+| 7 | [Siren Disruption             ](https://www.codyssi.com/view_problem_11?)   | [🧜🏻‍♀️](https://github.com/baptistecottier/other_puzzles/blob/main/puzzles/codyssi/events/year_2025/day_07/solver_07.py) | 
+| 8 | [Risky Shortcut               ](https://www.codyssi.com/view_problem_12?) 
 | 9 | [Windy Bargain                ](https://www.codyssi.com/view_problem_13?)
 | 10 | [Cyclops Chaos               ](https://www.codyssi.com/view_problem_14?)
 | 11 | [Games in a Storm            ](https://www.codyssi.com/view_problem_15?)
