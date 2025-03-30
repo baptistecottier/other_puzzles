@@ -3,7 +3,7 @@
 This repository contains my solutions for the [Codyssi](https://www.codyssi.com/home_page) puzzles.
 
 ### 2025 - Journey to Atlantis
-| # | Title                                                                       a | Solution                                                                                        |
+| # | Title                                                                       | Solution                                                                                        |
 |--:|:----------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------: |
 | 1 | [Compass Calibration          ](https://www.codyssi.com/view_problem_5?)    | [🧭](https://github.com/baptistecottier/other_puzzles/blob/main/puzzles/codyssi/events/year_2025/day_01/solver_01.py) | 
 | 2 | [Absurd Arithmetic            ](https://www.codyssi.com/view_problem_6?)    | [🧮](https://github.com/baptistecottier/other_puzzles/blob/main/puzzles/codyssi/events/year_2025/day_02/solver_02.py) | 
@@ -13,11 +13,14 @@ This repository contains my solutions for the [Codyssi](https://www.codyssi.com/
 | 6 | [Lotus Scramble               ](https://www.codyssi.com/view_problem_10?)   | [🪷](https://github.com/baptistecottier/other_puzzles/blob/main/puzzles/codyssi/events/year_2025/day_06/solver_06.py) | 
 | 7 | [Siren Disruption             ](https://www.codyssi.com/view_problem_11?)   | [🧜🏻‍♀️](https://github.com/baptistecottier/other_puzzles/blob/main/puzzles/codyssi/events/year_2025/day_07/solver_07.py) | 
 | 8 | [Risky Shortcut               ](https://www.codyssi.com/view_problem_12?)   | [⚠️](https://github.com/baptistecottier/other_puzzles/blob/main/puzzles/codyssi/events/year_2025/day_08/solver_08.py) | 
-| 9 | [Windy Bargain                ](https://www.codyssi.com/view_problem_13?)
-| 10 | [Cyclops Chaos               ](https://www.codyssi.com/view_problem_14?)
-| 11 | [Games in a Storm            ](https://www.codyssi.com/view_problem_15?)
-| 12 | [Challenging the Whirlpool   ](https://www.codyssi.com/view_problem_16?)
-| 13 | [Laestrygonian Guards        ](https://www.codyssi.com/view_problem_17?)
+| 9 | [Windy Bargain                ](https://www.codyssi.com/view_problem_13?)   | [🌪️](https://github.com/baptistecottier/other_puzzles/blob/main/puzzles/codyssi/events/year_2025/day_09/solver_09.py) | 
+| 10 | [Cyclops Chaos               ](https://www.codyssi.com/view_problem_14?)   | [👁️](https://github.com/baptistecottier/other_puzzles/blob/main/puzzles/codyssi/events/year_2025/day_10/solver_10.py) | 
+| 11 | [Games in a Storm            ](https://www.codyssi.com/view_problem_15?)   | [⛈️](https://github.com/baptistecottier/other_puzzles/blob/main/puzzles/codyssi/events/year_2025/day_11/solver_11.py) | 
+| 12 | [Challenging the Whirlpool   ](https://www.codyssi.com/view_problem_16?)   | [🌀](https://github.com/baptistecottier/other_puzzles/blob/main/puzzles/codyssi/events/year_2025/day_12/solver_12.py) | 
+| 13 | [Laestrygonian Guards        ](https://www.codyssi.com/view_problem_17?)   | [👻](https://github.com/baptistecottier/other_puzzles/blob/main/puzzles/codyssi/events/year_2025/day_13/solver_13.py) | 
+| 14 | [Crucial Crafting            ](https://www.codyssi.com/view_problem_18?)   | | 
+| 15 | [Artifacts at Atlantis       ](https://www.codyssi.com/view_problem_19?)   | | 
+| 16 | [Leviathan Mindscape         ](https://www.codyssi.com/view_problem_20?)   | | 
 
 
 ### 2024 - Summer at the Lab
