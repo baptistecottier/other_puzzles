@@ -1,4 +1,4 @@
-"""Codyssi - Year 2025 - Day 07 - Siren Disruption"""
+"""Codyssi - Year 2025 - Day 08 - Risky Shortcut"""
 
 import re
 
