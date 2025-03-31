@@ -19,7 +19,7 @@ This repository contains my solutions for the [Codyssi](https://www.codyssi.com/
 | 12 | [Challenging the Whirlpool   ](https://www.codyssi.com/view_problem_16?)   | [🌀](https://github.com/baptistecottier/other_puzzles/blob/main/puzzles/codyssi/events/year_2025/day_12/solver_12.py) | 
 | 13 | [Laestrygonian Guards        ](https://www.codyssi.com/view_problem_17?)   | [👻](https://github.com/baptistecottier/other_puzzles/blob/main/puzzles/codyssi/events/year_2025/day_13/solver_13.py) | 
 | 14 | [Crucial Crafting            ](https://www.codyssi.com/view_problem_18?)   | [🏭](https://github.com/baptistecottier/other_puzzles/blob/main/puzzles/codyssi/events/year_2025/day_14/solver_14.py) | 
-| 15 | [Artifacts at Atlantis       ](https://www.codyssi.com/view_problem_19?)   | | 
+| 15 | [Artifacts at Atlantis       ](https://www.codyssi.com/view_problem_19?)   | [🪾](https://github.com/baptistecottier/other_puzzles/blob/main/puzzles/codyssi/events/year_2025/day_15/solver_15.py) | 
 | 16 | [Leviathan Mindscape         ](https://www.codyssi.com/view_problem_20?)   | | 
 
 
